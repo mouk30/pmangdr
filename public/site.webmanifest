@@ -1,0 +1,16 @@
+{
+  "name": "피망머니상 | 머니김박사 - MONEY KIM LAB",
+  "short_name": "머니김박사",
+  "description": "피망 게임머니 가격 구조, 정보 차이, 판단 기준과 주의사항을 체계적으로 분석하는 리서치 저널",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101B2A",
+  "theme_color": "#101B2A",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

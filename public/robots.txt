@@ -1,0 +1,8 @@
+# Googlebot & All Crawlers Configuration for MONEY KIM LAB (머니김박사)
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_internal/
+
+# Sitemap location
+Sitemap: https://moneykim.lab/sitemap.xml

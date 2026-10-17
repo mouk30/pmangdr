@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #101B2A;
+    --color-navy-dark: #0A121D;
+    --color-ivory: #F7F5F0;
+    --color-ivory-light: #FBF9F6;
+    --color-gold: #C5A46D;
+    --color-gold-light: #DFC79B;
+    --color-gold-dark: #A58249;
+    --color-charcoal: #161A20;
+    --color-muted: #737780;
+    --color-border: #E2DFD9;
+    --color-border-dark: #273448;
+  }
+
+  body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    letter-spacing: -0.015em;
+    line-height: 1.75;
+    background-color: var(--color-ivory);
+    color: var(--color-charcoal);
+  }
+
+  h1, h2, h3, h4 {
+    letter-spacing: -0.025em;
+    line-height: 1.25;
+    text-wrap: balance;
+  }
+
+  .font-editorial-serif {
+    font-family: "Cormorant Garamond", "Noto Serif KR", Georgia, serif;
+  }
+
+  .font-kr-serif {
+    font-family: "Noto Serif KR", "MaruBuri", serif;
+  }
+
+  .font-brand {
+    font-family: "Cormorant Garamond", "Plus Jakarta Sans", serif;
+    letter-spacing: 0.08em;
+  }
+}
+
+/* Custom editorial components & utility classes */
+.editorial-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.article-container {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Subtle hairline borders */
+.border-hairline {
+  border-color: rgba(226, 223, 217, 0.9);
+}
+
+.border-hairline-dark {
+  border-color: rgba(255, 255, 255, 0.12);
+}
