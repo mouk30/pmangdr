@@ -1,8 +1,12 @@
-# Googlebot & All Crawlers Configuration for MONEY KIM LAB (머니김박사)
+# Naver Search Advisor Yeti Crawler Optimization
+User-agent: Yeti
+Allow: /
+
+# Googlebot & General Search Engine Crawlers
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /_internal/
 
-# Sitemap location
+# XML Sitemap for Yeti & Googlebot
 Sitemap: https://moneykim.lab/sitemap.xml

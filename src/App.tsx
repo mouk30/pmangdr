@@ -47,7 +47,7 @@ export default function App() {
 
     if (cleanSlug === '' || currentPath === '/') {
       updatePageSeo({
-        title: '피망머니상 | 머니김박사 — 구조·가격 정보 가이드',
+        title: '피망머니상 | 머니김박사',
         description:
           '피망머니상 정보를 머니김박사가 정리합니다. 피망 게임머니의 가격 구조, 정보 차이, 판단 기준과 확인 전 주의사항을 체계적으로 살펴보세요.',
         canonicalPath: '/'

@@ -18,9 +18,21 @@ export function updatePageSeo(options: {
   setMetaTag('property', 'og:title', options.title);
   setMetaTag('property', 'og:description', options.description);
   setMetaTag('property', 'og:url', canonicalUrl);
+  setMetaTag('property', 'og:site_name', '피망머니상 | 머니김박사');
+
+  // OpenGraph Image for Naver Yeti & Social Preview
+  const imageUrl = options.article?.image?.src
+    ? `${DOMAIN_URL}${options.article.image.src}`
+    : `${DOMAIN_URL}/images/hero_editorial_journal.jpg`;
+  setMetaTag('property', 'og:image', imageUrl);
+  setMetaTag('property', 'og:image:width', '1200');
+  setMetaTag('property', 'og:image:height', '630');
+  setMetaTag('property', 'og:image:alt', options.title);
+
   setMetaTag('name', 'twitter:title', options.title);
   setMetaTag('name', 'twitter:description', options.description);
   setMetaTag('name', 'twitter:url', canonicalUrl);
+  setMetaTag('name', 'twitter:image', imageUrl);
 
   // Update Canonical
   let canonicalEl = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
