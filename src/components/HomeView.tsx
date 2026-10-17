@@ -105,11 +105,16 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <div className="lg:col-span-5 flex flex-col justify-between">
               <div className="relative rounded-lg overflow-hidden border border-white/15 shadow-2xl bg-[#0A121D]">
                 <img
-                  src="/src/assets/images/hero_editorial_journal_1792239833694.jpg"
+                  src="/images/hero_editorial_journal.jpg"
                   alt="머니김박사 에디토리얼 리서치 데스크"
                   className="w-full h-72 sm:h-84 object-cover brightness-95 contrast-105"
                   referrerPolicy="no-referrer"
                   loading="eager"
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    target.onerror = null;
+                    target.src = '/src/assets/images/hero_editorial_journal_1792239833694.jpg';
+                  }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#101B2A] via-transparent to-transparent opacity-80" />
                 <div className="absolute bottom-4 left-4 right-4 text-xs text-white/90">
@@ -278,11 +283,16 @@ export const HomeView: React.FC<HomeViewProps> = ({
             <div className="lg:col-span-5">
               <div className="relative rounded-lg overflow-hidden border border-[#E2DFD9] shadow-md bg-[#F7F5F0]">
                 <img
-                  src="/src/assets/images/price_structure_analysis_1792239834234.jpg"
+                  src="/images/price_structure_analysis.jpg"
                   alt="가격 구조 분석 에디토리얼 이미지"
                   className="w-full h-80 sm:h-96 object-cover"
                   referrerPolicy="no-referrer"
                   loading="lazy"
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    target.onerror = null;
+                    target.src = '/src/assets/images/price_structure_analysis_1792239834234.jpg';
+                  }}
                 />
                 <div className="p-4 bg-white border-t border-[#E2DFD9] text-xs text-[#737780]">
                   <strong className="text-[#101B2A]">Fig 2.2</strong> — 피망 게임 내 판돈 시스템(딜러비 10~20%)의 가상재화 소멸 메커니즘

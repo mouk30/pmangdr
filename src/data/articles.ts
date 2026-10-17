@@ -22,7 +22,7 @@ export const ARTICLES: Record<string, ArticleData> = {
     heroKicker: 'PILLAR CLUSTER 01 — MARKET STRUCTURE & ORIGINS',
     directAnswer: '피망 머니상은 게임 이용자 간 형성된 비공식 정보 유통망과 검색 수요가 결합되어 탄생한 키워드입니다. 게임 내 시스템상 발생하는 보유 머니의 격차, 빠른 게임 진행을 원하는 이용자의 심리, 그리고 비공식적인 중개자들의 마케팅 활동이 맞물려 복잡한 정보 생태계를 형성하고 있습니다.',
     image: {
-      src: '/src/assets/images/hero_editorial_journal_1792239833694.jpg',
+      src: '/images/hero_editorial_journal.jpg',
       alt: '피망 머니상 구조 및 검색 배경 분석 리포트',
       caption: 'Fig 1.1 — 디지털 엔터테인먼트 게임머니 정보 유통 경로 및 이용자 유입 구조 다이어그램'
     },
@@ -109,7 +109,7 @@ export const ARTICLES: Record<string, ArticleData> = {
     heroKicker: 'PILLAR CLUSTER 02 — PRICING MECHANISMS & DIVERGENCE',
     directAnswer: '피망 머니상에서 언급되는 이른바 "시세"는 주식 시장이나 환율처럼 공인된 거래소의 단일 가격이 아닙니다. 플랫폼 차이(PC vs 모바일), 거래 단위(1조 vs 100억), 이동 과정에서의 게임 내 판돈 수수료(딜러비 10~20%), 그리고 정보 유통 시점의 시간차로 인해 각 게시자마다 전혀 다른 숫자를 부르게 됩니다.',
     image: {
-      src: '/src/assets/images/price_structure_analysis_1792239834234.jpg',
+      src: '/images/price_structure_analysis.jpg',
       alt: '피망 머니 가격 구조 분석 및 시세 변동 요인',
       caption: 'Fig 2.1 — 게임 내 시스템 수수료(딜러비) 감가 상각과 명목 호가의 괴리 구조'
     },
@@ -197,7 +197,7 @@ export const ARTICLES: Record<string, ArticleData> = {
     heroKicker: 'PILLAR CLUSTER 03 — DECISION MAKING FRAMEWORK',
     directAnswer: '수많은 비공식 정보 중에서 유효한 정보를 식별하기 위해서는 "빠른 비교"보다 "단계별 필터링"이 선행되어야 합니다. 머니김박사는 [1. 출처의 독립성 → 2. 데이터 최신성 → 3. 조건의 구체성 → 4. 시스템 위험도 → 5. 법적·약관상 불이익]의 5단계 판단 프레임을 제시합니다.',
     image: {
-      src: '/src/assets/images/decision_framework_matrix_1792239834699.jpg',
+      src: '/images/decision_framework_matrix.jpg',
       alt: '정보 판단 기준 5단계 프레임워크 매트릭스',
       caption: 'Fig 3.1 — 비공식 가상재화 정보의 신뢰도 평가 5단계 의사결정 매트릭스'
     },
@@ -290,7 +290,7 @@ export const ARTICLES: Record<string, ArticleData> = {
     heroKicker: 'PILLAR CLUSTER 04 — REAL-WORLD CASE STUDIES',
     directAnswer: '이용자들이 겪는 혼란의 대부분은 "비슷한 숫자를 동일한 가치로 오인"하거나, "게임 내 수수료 차감 과정을 이해하지 못해 발생한 분쟁", 그리고 "거래 직후 게임사 모니터링에 적발되어 계정이 영구 정지되는 사례"로 집약됩니다. 실제 사례 분석을 통해 사전에 위험을 회피하는 것이 필수적입니다.',
     image: {
-      src: '/src/assets/images/decision_framework_matrix_1792239834699.jpg',
+      src: '/images/decision_framework_matrix.jpg',
       alt: '피망 머니상 실제 사례 및 이용자 분쟁 유형 분석',
       caption: 'Fig 4.1 — 게임 재화 비공식 거래에서 발생하는 3대 분쟁 및 피해 유형 분류'
     },
@@ -377,7 +377,7 @@ export const ARTICLES: Record<string, ArticleData> = {
     heroKicker: 'PILLAR CLUSTER 05 — PREREQUISITES & FRAUD PREVENTION',
     directAnswer: '피망 머니 관련 정보를 열람하기 전에 가장 먼저 점검해야 할 것은 "나의 계정과 개인정보가 안전한 상태인가"입니다. 정보의 홍수 속에서 기준점 없이 탐색하다 보면 교묘한 피싱 링크, 사칭 카카오톡 채널, 계정 대여 사기 등에 노출될 수 있으므로 사전에 체크리스트를 점검해야 합니다.',
     image: {
-      src: '/src/assets/images/security_verification_inspection_1792239835472.jpg',
+      src: '/images/security_verification_inspection.jpg',
       alt: '계정 보안 및 피망 머니상 확인 전 사전 점검 가이드',
       caption: 'Fig 5.1 — 디지털 서비스 이용자 보안 프로토콜 및 사기 방지 5대 점검 지침'
     },
@@ -468,7 +468,7 @@ export const ARTICLES: Record<string, ArticleData> = {
     heroKicker: 'EDITORIAL MANIFESTO & RESEARCH INTEGRITY',
     directAnswer: 'MONEY KIM LAB(피망머니상 | 머니김박사)은 왜곡된 온라인 게임머니 정보 생태계를 바로잡고, 이용자들에게 검증된 팩트, 건전한 약관 기준, 시장 구조 분석 및 사기 예방 지침을 제공하기 위해 설립된 독립형 프리미엄 디지털 정보 저널입니다.',
     image: {
-      src: '/src/assets/images/hero_editorial_journal_1792239833694.jpg',
+      src: '/images/hero_editorial_journal.jpg',
       alt: '머니김박사 에디토리얼 저널 설립 취지와 리서치 원칙',
       caption: 'MONEY KIM LAB Editorial Desk — 투명성과 신뢰성에 기반한 정보 저널리즘'
     },
@@ -526,7 +526,7 @@ export const ARTICLES: Record<string, ArticleData> = {
     heroKicker: 'QUARTERLY RESEARCH & POLICY DISPATCH',
     directAnswer: '머니김박사 저널은 분기별 온라인 보드게임 재화 동향, 게임산업진흥법 개정 이슈, 경찰청 사이버안전국 공조 피해 분석 데이터를 종합하여 깊이 있는 리서치 리포트를 정기적으로 발간합니다.',
     image: {
-      src: '/src/assets/images/price_structure_analysis_1792239834234.jpg',
+      src: '/images/price_structure_analysis.jpg',
       alt: '머니김박사 분기별 리서치 저널 아카이브',
       caption: 'Research Archive — 온라인 게임 재화 규제 및 이용자 권익 연구 보고서'
     },

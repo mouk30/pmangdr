@@ -134,6 +134,11 @@ export const ArticleView: React.FC<ArticleViewProps> = ({
                 className="w-full h-80 sm:h-96 object-cover"
                 referrerPolicy="no-referrer"
                 loading="eager"
+                onError={(e) => {
+                  const target = e.currentTarget;
+                  target.onerror = null;
+                  target.src = '/images/hero_editorial_journal.jpg';
+                }}
               />
             </div>
             <figcaption className="text-xs font-serif italic text-[#737780] mt-3 text-center">
